@@ -27,7 +27,6 @@ public class DriverFactory {
         WebDriver driver = null;
         switch (getBrowserType()) {
             case "chrome" -> {
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/driver/drivers/chromedriver.exe");
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
                 chromeOptions.addArguments("--remote-allow-origins=*");
@@ -35,15 +34,15 @@ public class DriverFactory {
                 break;
             }
             case "firefox" -> {
-                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/main/java/driver/drivers/geckodriver.exe");
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-                //firefoxOptions.addArguments("--remote-allow-origins=*");
                 driver = new FirefoxDriver(firefoxOptions);
                 break;
             }
         }
-        driver.manage().window().maximize();
+        if (driver != null) {
+            driver.manage().window().maximize();
+        }
         return driver;
     }
 
@@ -67,7 +66,9 @@ public class DriverFactory {
     }
 
     public static void cleanupDriver() {
-        webDriver.get().quit();
-        webDriver.remove();
+        if (webDriver.get() != null) {
+            webDriver.get().quit();
+            webDriver.remove();
+        }
     }
 }

@@ -5,8 +5,8 @@ Feature: RetroFitness - Login Portal Page
 
   @pilates-enroll
   Scenario: Verify Successful Enrollment for Pilates on Monday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -20,8 +20,8 @@ Feature: RetroFitness - Login Portal Page
 
   @pilates-wait
   Scenario: Verify Successful Joining Wait List for Pilates on Monday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -34,8 +34,8 @@ Feature: RetroFitness - Login Portal Page
 
   @barre-enroll
   Scenario: Verify Successful Enrollment for Barre on Wednesday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -48,8 +48,8 @@ Feature: RetroFitness - Login Portal Page
 
   @barre-wait
   Scenario: Verify Successful Joining Wait List for Barre on Wednesday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -62,8 +62,8 @@ Feature: RetroFitness - Login Portal Page
 
   @pil-barre-enroll
   Scenario: Verify Successful Enrollment for PilBarre on Thursday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -76,8 +76,8 @@ Feature: RetroFitness - Login Portal Page
 
   @pil-barre-wait
   Scenario: Verify Successful Joining Wait List for PilBarre on Thursday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -90,8 +90,8 @@ Feature: RetroFitness - Login Portal Page
 
   @yoga-pil-enroll
   Scenario: Verify Successful Enrollment for YogaiLates on Friday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -104,8 +104,8 @@ Feature: RetroFitness - Login Portal Page
 
   @yoga-pil-wait
   Scenario: Verify Successful Joining Wait List for YogaiLates on Friday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -118,8 +118,8 @@ Feature: RetroFitness - Login Portal Page
 
   @test-enroll
   Scenario: Verify Successful Enrollment for Zumba on Saturday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
@@ -133,8 +133,8 @@ Feature: RetroFitness - Login Portal Page
 
   @test-wait
   Scenario: Verify Successful Joining Wait List for Slow Burn on Wednesday:
-    When I enter username "sedmaya"
-    And I enter password "Bookaclass"
+    When I enter username "USER_NAME"
+    And I enter password "PASSWORD"
     And I click on the login button
     And I redirected to my Account home page "https://www.myiclubonline.com/iclub/members#account/personal"
     And I click on Classes tab
