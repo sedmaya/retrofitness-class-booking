@@ -1,4 +1,4 @@
-# 🏋️ retrofitness-booking-automation
+# 🏋️ retrofitness-class-booking
 
 An automated UI testing suite built with **Selenium**, **Cucumber (BDD)**, and **TestNG** designed to automate the process of enrolling in gym classes or joining waitlists on the RetroFitness member portal.
 
@@ -24,8 +24,8 @@ An automated UI testing suite built with **Selenium**, **Cucumber (BDD)**, and *
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/sedmaya/retrofitness-booking-automation.git
-    cd retrofitness-booking-automation
+    git clone https://github.com/sedmaya/retrofitness-class-booking.git
+    cd retrofitness-class-booking
     ```
 
 2.  **Configuration:**
